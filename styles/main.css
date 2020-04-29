@@ -184,9 +184,7 @@ body {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  margin: 0;
-  padding: 0; }
+          justify-content: center; }
 
 .cards-block {
   display: -webkit-box;
