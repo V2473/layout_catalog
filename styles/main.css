@@ -178,7 +178,7 @@ body {
 body {
   margin: 0; }
 
-.cards-block-main {
+.cards-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -186,7 +186,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-.cards-block {
+.cards-block__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
