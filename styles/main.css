@@ -164,7 +164,8 @@ body {
   text-transform: uppercase;
   background: #00acdc;
   border-radius: 5px;
-  color: #fff; }
+  color: #fff;
+  text-decoration: none; }
 
 .product-card__buy-button-link:hover {
   background: #fff;
