@@ -49,28 +49,36 @@ body {
   line-height: 60px;
   -webkit-transition: color 0.2s;
   transition: color 0.2s; }
+  .nav__item:hover {
+    color: #00acdc; }
+  .nav__item:focus {
+    color: #00acdc; }
+  .nav__item:focus::after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #00acdc;
+    border-radius: 8px;
+    bottom: 0;
+    left: 0; }
 
 .nav__item-cell + .nav__item-cell {
   margin-left: 20px; }
 
-.nav__item:hover {
-  color: #00acdc; }
-
-.nav__item:focus,
 .is-active {
   color: #00acdc; }
-
-.nav__item:focus::after,
-.is-active::after {
-  position: absolute;
-  display: block;
-  content: "";
-  height: 4px;
-  width: 100%;
-  background-color: #00acdc;
-  border-radius: 8px;
-  bottom: 0;
-  left: 0; }
+  .is-active::after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #00acdc;
+    border-radius: 8px;
+    bottom: 0;
+    left: 0; }
 
 @media only screen and (max-width: 920px) {
   .logo {
@@ -95,16 +103,13 @@ body {
     margin: 0;
     padding: 0;
     line-height: 16px; }
-  .is-active::after,
   .nav__item:focus::after {
-    position: absolute;
-    display: block;
-    content: "";
     width: 4px;
     height: 100%;
-    background-color: #00acdc;
-    border-radius: 8px;
-    bottom: 0;
+    left: -15px; }
+  .is-active::after {
+    width: 4px;
+    height: 100%;
     left: -15px; } }
 
 :root {
@@ -154,28 +159,36 @@ body {
   line-height: 60px;
   -webkit-transition: color 0.2s;
   transition: color 0.2s; }
+  .nav__item:hover {
+    color: #00acdc; }
+  .nav__item:focus {
+    color: #00acdc; }
+  .nav__item:focus::after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #00acdc;
+    border-radius: 8px;
+    bottom: 0;
+    left: 0; }
 
 .nav__item-cell + .nav__item-cell {
   margin-left: 20px; }
 
-.nav__item:hover {
-  color: #00acdc; }
-
-.nav__item:focus,
 .is-active {
   color: #00acdc; }
-
-.nav__item:focus::after,
-.is-active::after {
-  position: absolute;
-  display: block;
-  content: "";
-  height: 4px;
-  width: 100%;
-  background-color: #00acdc;
-  border-radius: 8px;
-  bottom: 0;
-  left: 0; }
+  .is-active::after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #00acdc;
+    border-radius: 8px;
+    bottom: 0;
+    left: 0; }
 
 @media only screen and (max-width: 920px) {
   .logo {
@@ -200,16 +213,13 @@ body {
     margin: 0;
     padding: 0;
     line-height: 16px; }
-  .is-active::after,
   .nav__item:focus::after {
-    position: absolute;
-    display: block;
-    content: "";
     width: 4px;
     height: 100%;
-    background-color: #00acdc;
-    border-radius: 8px;
-    bottom: 0;
+    left: -15px; }
+  .is-active::after {
+    width: 4px;
+    height: 100%;
     left: -15px; } }
 
 .product-card {
@@ -361,28 +371,36 @@ body {
   line-height: 60px;
   -webkit-transition: color 0.2s;
   transition: color 0.2s; }
+  .nav__item:hover {
+    color: #00acdc; }
+  .nav__item:focus {
+    color: #00acdc; }
+  .nav__item:focus::after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #00acdc;
+    border-radius: 8px;
+    bottom: 0;
+    left: 0; }
 
 .nav__item-cell + .nav__item-cell {
   margin-left: 20px; }
 
-.nav__item:hover {
-  color: #00acdc; }
-
-.nav__item:focus,
 .is-active {
   color: #00acdc; }
-
-.nav__item:focus::after,
-.is-active::after {
-  position: absolute;
-  display: block;
-  content: "";
-  height: 4px;
-  width: 100%;
-  background-color: #00acdc;
-  border-radius: 8px;
-  bottom: 0;
-  left: 0; }
+  .is-active::after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: #00acdc;
+    border-radius: 8px;
+    bottom: 0;
+    left: 0; }
 
 @media only screen and (max-width: 920px) {
   .logo {
@@ -407,16 +425,13 @@ body {
     margin: 0;
     padding: 0;
     line-height: 16px; }
-  .is-active::after,
   .nav__item:focus::after {
-    position: absolute;
-    display: block;
-    content: "";
     width: 4px;
     height: 100%;
-    background-color: #00acdc;
-    border-radius: 8px;
-    bottom: 0;
+    left: -15px; }
+  .is-active::after {
+    width: 4px;
+    height: 100%;
     left: -15px; } }
 
 .cards-block {
