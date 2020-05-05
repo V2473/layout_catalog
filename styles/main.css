@@ -46,7 +46,9 @@ body {
   color: black;
   padding: 23px 0;
   font-size: 12px;
-  line-height: 60px; }
+  line-height: 60px;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s; }
 
 .nav__item-cell + .nav__item-cell {
   margin-left: 20px; }
@@ -141,7 +143,9 @@ body {
   color: black;
   padding: 23px 0;
   font-size: 12px;
-  line-height: 60px; }
+  line-height: 60px;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s; }
 
 .nav__item-cell + .nav__item-cell {
   margin-left: 20px; }
@@ -290,7 +294,9 @@ body {
   color: #fff;
   text-decoration: none;
   background: #00acdc;
-  border-radius: 5px; }
+  border-radius: 5px;
+  -webkit-transition: background 0.2s, border 0.1s;
+  transition: background 0.2s, border 0.1s; }
 
 .product-card__buy-button-link:hover {
   color: #00acdc;
@@ -344,7 +350,9 @@ body {
   color: black;
   padding: 23px 0;
   font-size: 12px;
-  line-height: 60px; }
+  line-height: 60px;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s; }
 
 .nav__item-cell + .nav__item-cell {
   margin-left: 20px; }
